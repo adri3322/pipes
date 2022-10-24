@@ -8,9 +8,9 @@ import { Component } from '@angular/core';
 })
 export class BasicosComponent {
 
-  nombreLower: string = 'adriana';
-  nombreUpper: string = 'ADRIANA';
-  nombreCompleto: string = 'aDriAna marTin';
+  nombreLower: string = 'fernando';
+  nombreUpper: string = 'FERNANDO';
+  nombreCompleto: string = 'fErNando herRera';
 
   fecha: Date = new Date(); // el día de hoy
 

@@ -10,7 +10,7 @@ import { interval } from 'rxjs';
 export class NoComunesComponent  {
 
   // i18nSelect
-  nombre: string = 'Luis';
+  nombre: string = 'Fernando';
   genero: string = 'masculino';
   invitacionMapa = {
     'masculino': 'invitarlo',
@@ -27,7 +27,7 @@ export class NoComunesComponent  {
   }
 
   cambiarCliente() {
-    this.nombre = 'Adriana';
+    this.nombre = 'Melissa';
     this.genero = 'femenino';
   }
 
@@ -38,9 +38,9 @@ export class NoComunesComponent  {
 
   // KeyValue Pipe
   persona = {
-    nombre: 'Ángel',
-    edad: 33,
-    direccion: 'Madrid, España'
+    nombre: 'Fernando',
+    edad: 35,
+    direccion: 'Ottawa, Canadá'
   }
 
   // JsonPipe
